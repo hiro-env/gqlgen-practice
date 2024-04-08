@@ -13,6 +13,7 @@
     email
   }
 }```
+
 1.データを取得する
 ```{
   getUser(name:"Alice") {
@@ -20,6 +21,7 @@
     email
   }
 }```
+
 1.データを更新する
 ```mutation {
   updateUser(name: "Alice", email: "alice@alicemail.jp") {
